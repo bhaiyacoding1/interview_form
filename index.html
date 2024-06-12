@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>log-in page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Enter your details to start your <span>FREE Interview </span></h1>
+        <div class="form-container">
+            <div>
+                <label for="name">Your Name</label>
+                <input type="text" placeholder="Enter Your Name*" id="name">
+            </div>
+            <div>
+                <label for="job-role">Enter the job role for FREE mock interview</label>
+                <select name="job" id="job-role">
+                    <optgroup label="DEPARTMENT NAME">
+                      <option value="Graphic designer ">Graphic designer </option>
+                      <option value="Graphic/motion designer">Graphic/motion designer</option>
+                    </optgroup>
+                    <optgroup label="DEPARTMENT NAME">
+                      <option value="Graphic or web designer">Graphic or web designer</option>
+                      <option value="Graphic cum web">Graphic cum web</option>
+                    </optgroup>
+                  </select>
+            </div>
+            <div>
+                <label for="mobile">Mobile No</label>
+                <input type="number" placeholder="Enter Your Mobile Number*" id="Mobile">
+            </div>
+            <div>
+                <label for="experience">Years of Experience</label>
+                <input type="number" id="experience" placeholder="Experience (0 to 10)">
+            </div>
+            <div>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="Enter Your Email Address*">
+            </div>
+            <div>
+                <p>Type of Interview</p>
+                <div class="buttons">
+                    <button>HR</button>
+                    <button>Technical</button>
+                </div>
+            </div>
+        </div>
+        <div class="interview-btn">
+            <button class="btn" type="submit">START FREE INTERVIEW</button>
+        </div>
+    </div>
+</body>
+
+</html>
